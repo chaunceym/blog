@@ -1,5 +1,5 @@
 class FirstController < ApplicationController
   def hello
-   render plain: 'Hello World' 
+   render 'first/hello' 
   end
 end
