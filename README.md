@@ -15,3 +15,9 @@ config/database.yml 写入数据库配置
 运行 bin/rails db:create 创建 dev 和 test 数据库
 访问成功
 ```
+
+# erb 表达式
+
+<% %> 表示其中可以穿插表达式
+
+<%= %> 表示可以穿插值
