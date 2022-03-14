@@ -21,3 +21,9 @@ config/database.yml 写入数据库配置
 <% %> 表示其中可以穿插表达式
 
 <%= %> 表示可以穿插值
+
+# 创建表
+
+```bash
+bin/rails g model User email:string password_digest:string
+```
