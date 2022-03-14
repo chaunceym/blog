@@ -22,8 +22,10 @@ zh-CN:
             email:
               blank: 请填写邮箱
               isvalid: 邮箱不合法
+              not_found: 该邮箱未注册
             password:
               blank: 密码不能为空
               too_short: 密码必须是 6 位以上
+              mismatch: 邮箱与密码不匹配
 
 
