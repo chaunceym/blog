@@ -26,4 +26,11 @@ config/database.yml 写入数据库配置
 
 ```bash
 bin/rails g model User email:string password_digest:string
+bin/rails db:migrate
 ```
+
+# 操作数据库利用ruby console 环境
+```bash
+bin/rails console
+```
+
